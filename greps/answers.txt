@@ -1,7 +1,8 @@
 # Part 1
 ### a)
-
-
+grep "beed" forest/filescan_00.1 > captured/beedrill.txt
+grep "blas" forest/filescan_00.1 > captured/blastoise.txt
+grep "char" forest/filescan_00.2 > captured/charazard.txt
 
 
 ### b)
@@ -24,14 +25,14 @@
 
 # Part 2
 ### a)
-
+ls -l | grep "^-" | wc -l
 
 
 
 
 
 ### b)
-
+find . -name '*.txt' | xargs wc -l
 
 
 
